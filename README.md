@@ -1,7 +1,7 @@
 towave - a program to extract the channels from a chiptune file
 ===============================================================
-(C) 2011 Bryan Mitchell ([icesoldier]9http://icesoldier.me/towave.html))
-(C) 2015 Hordeking ([Github](https://github.com/Hordeking))
+©2011 Bryan Mitchell ([icesoldier](http://icesoldier.me/towave.html))
+©2015 Hordeking ([Github](https://github.com/Hordeking))
 
 Notes about the source
 ----------------------
