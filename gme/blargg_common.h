@@ -124,8 +124,15 @@ global scope already. */
 		typedef unsigned short   uint16_t;
 		typedef int               int32_t;
 		typedef unsigned int     uint32_t;
+#ifdef __GNUC__ 
+		typedef __INT64_TYPE__    int64_t;
+		typedef __UINT64_TYPE__  uint64_t;
+#elif defined(_WIN64) || defined(_WIN32)
 		typedef __int64           int64_t;
-		typedef unsigned __int64 uint64_t;
+#else
+		typedef long long signed  int64_t;
+		typedef long long unsigned uint64_t;
+#endif	//End of #ifdef __GNUC__
 	};
 #endif
 
