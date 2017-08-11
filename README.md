@@ -14,7 +14,7 @@ For the curious, the discussion post where I found the library by itself is [her
 
 License
 -------
-GPL2. See the LICENSE file for full text.
+GPL. See the LICENSE file for full text.
 
 Contact
 ----------------
